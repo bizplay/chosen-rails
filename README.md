@@ -1,4 +1,4 @@
-# Venture Media implemented fixes
+# Kate's Implemented fixes
 - fixed incompatibility with jQuery 2.2 (https://github.com/harvesthq/chosen/issues/2506)
 
 # Chosen for rails asset pipeline
