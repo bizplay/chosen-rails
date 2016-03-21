@@ -73,7 +73,7 @@ Also add the class to your form field
 If you use simple form as form builder
 
 ```erb
-<%= f.association :author, 
+<%= f.association :author,
                   collection: User.all,
                   include_blank: true,
                   input_html: { class: 'chosen-select' }
