@@ -215,7 +215,8 @@ class Chosen extends AbstractChosen
       visible_top = @search_results.scrollTop()
       visible_bottom = maxHeight + visible_top
 
-      high_top = @result_highlight.position().top
+      # high_top = this.result_highlight.position().top + this.search_results.scrollTop();
+      high_top = @result_highlight.position().top + visible_top
       high_bottom = high_top + @result_highlight.outerHeight()
 
       if high_bottom >= visible_bottom
